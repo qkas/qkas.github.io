@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kasperi Jaakkola - Developer Portfolio",
+  title: "Kasperi Jaakkola",
   description: "Portfolio of Kasperi Jaakkola, showcasing projects, skills, experience and passion for web and game development.",
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased px-4 sm:px-10 md:px-20` }
       >
         {children}
         <Footer/>        
