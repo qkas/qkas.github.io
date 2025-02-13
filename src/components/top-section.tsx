@@ -21,7 +21,7 @@ export default function TopSection() {
       <div className="sm:mx-10 mx-5">
         <Link
           href="https://www.linkedin.com/in/kasperi-jaakkola/" 
-          className="font-bold text-4xl md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
+          className="font-bold text-3xl md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
           rel="noopener noreferrer" target="_blank"
         > Kasperi Jaakkola
         </Link>
