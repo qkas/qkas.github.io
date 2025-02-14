@@ -37,7 +37,7 @@ export default function TopSection() {
           </section>
         </div>
       </div>
-      <section className="flex flex-col gap-5 py-5 md:pl-10 mx-auto items-start">
+      <section className="flex flex-col items-start self-start gap-5 py-5 2xl:pl-10 2xl:mx-auto w-full 2xl:w-auto">
         <h1 className="font-bold text-2xl md:text-3xl">
           Level <span className="border-foreground text-lg md:text-xl font-light border-2 p-1 rounded-full">10</span>
         </h1>
@@ -45,7 +45,7 @@ export default function TopSection() {
           <div className="px-2 text-3xl md:text-5xl">
             3
           </div>
-          <div className="flex flex-col pr-2">
+          <div className="flex flex-col pr-10">
             <h1 className="text-lg md:text-xl font-bold">Years of experience</h1>
             <h2 className="text-sm md:text-base">150 XP</h2>
           </div>
