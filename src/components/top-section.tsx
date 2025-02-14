@@ -46,7 +46,7 @@ export default function TopSection() {
             3
           </div>
           <div className="flex flex-col pr-10">
-            <h1 className="text-lg md:text-xl font-bold">Years of experience</h1>
+            <h1 className="text-lg md:text-xl font-bold">Years of webxperience</h1>
             <h2 className="text-sm md:text-base">150 XP</h2>
           </div>
         </div>
