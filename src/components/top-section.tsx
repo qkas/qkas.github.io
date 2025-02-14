@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TopSection() {
   return (
-    <main className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5 md:mt-10 font-[family-name:var(--font-geist-mono)]">
+    <main className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5 font-[family-name:var(--font-geist-mono)]">
       <Link
         href="https://www.linkedin.com/in/kasperi-jaakkola/"
         className="hover:scale-105 transition min-w-32"
@@ -37,19 +37,27 @@ export default function TopSection() {
           </section>
         </div>
       </div>
-      <section className="flex flex-col py-5 md:pl-10 mx-auto items-center md:items-start">
-        <h1 className="font-bold text-2xl mb-5 md:text-3xl">
+      <section className="flex flex-col gap-5 py-5 md:pl-10 mx-auto items-start">
+        <h1 className="font-bold text-2xl md:text-3xl">
           Level <span className="border-foreground text-lg md:text-xl font-light border-2 p-1 rounded-full">10</span>
         </h1>
         <div className="border-2 rounded-lg flex items-center p-2 md:p-5 gap-2 md:gap-4">
           <div className="px-2 text-3xl md:text-5xl">
             3
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col pr-2">
             <h1 className="text-lg md:text-xl font-bold">Years of experience</h1>
             <h2 className="text-sm md:text-base">150 XP</h2>
           </div>
         </div>
+        <Link
+          href="mailto:kasperijaa@gmail.com"
+          rel="noopener noreferrer" target="_blank"
+        >
+          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-xl md:text-2xl hover:scale-105 hover:underline hover:uppercase transition">
+            message
+          </div>
+        </Link>
       </section>
     </main>
   );
