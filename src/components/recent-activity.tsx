@@ -12,7 +12,6 @@ export default function RecentActivity() {
         description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Doom. Currently working 
           on missing animations and broken ragdoll physics but after that I want to move on to the next project. I've loved making new
           features and playtesting them with my friends."
-        progress={85}
         skills="Godot, Networking, UI menus"
         gifSrc="/dungeon.gif"
         imgSrc="/dungeon.png"
@@ -22,7 +21,6 @@ export default function RecentActivity() {
         title="VR Sampling Equipment"
         description="A VR sampling equipment identification game made in Unity for Biomedical students. Worked as the main Unity developer
           together with an awesome team of nice people. Completed in two months as a Capstone project and delivered the game to the client."
-        progress={100}
         skills="Unity, VR, team collaboration"
         gifSrc="/vr-sampling.gif"
         imgSrc="/vr-sampling.png"
