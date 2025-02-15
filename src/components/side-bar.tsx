@@ -23,14 +23,14 @@ export default function SideBar() {
       </div>
       <div className="flex flex-row 2xl:flex-col gap-5">
         <Link
-          className="font-bold text-base lg:text-lg xl:text-xl hover:scale-105 hover:underline hover:uppercase transition"
+          className="font-bold text-base lg:text-lg xl:text-xl hover:scale-105 w-fit hover:underline hover:uppercase transition"
           href="https://www.linkedin.com/in/kasperi-jaakkola"
           rel="noopener noreferrer"
           target="_blank"
         >
           LinkedIn
         </Link>
-        <div className="">
+        <div>
           <button
             onClick={copyEmail}
             onMouseLeave={() => setCopied(false)}
