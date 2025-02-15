@@ -12,15 +12,16 @@ export default function RecentActivity() {
         description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Doom. Currently working 
           on missing animations and broken ragdoll physics but after that I want to move on to the next project. I've loved making new
           features and playtesting them with my friends."
-        skills="Godot, Networking, UI menus"
+        skills="Godot, networking, UI menus"
         gifSrc="/dungeon.gif"
         imgSrc="/dungeon.png"
         altText="Dungeon deathmatch gameplay"
       />
       <GameShowcase
         title="VR Sampling Equipment"
-        description="A VR sampling equipment identification game made in Unity for Biomedical students. Worked as the main Unity developer
-          together with an awesome team of nice people. Completed in two months as a Capstone project and delivered the game to the client."
+        description="A VR sampling equipment identification game for an innovative and hands-on learning experience for Biomedical students.
+          Worked as the main game designer and Unity developer together with an awesome team of nice people. Completed in two months as a 
+          Capstone project and delivered the game to the client."
         skills="Unity, VR, team collaboration"
         gifSrc="/vr-sampling.gif"
         imgSrc="/vr-sampling.png"
