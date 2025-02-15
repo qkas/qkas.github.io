@@ -13,9 +13,13 @@ export default function Footer() {
         <Link href="https://www.linkedin.com/in/kasperi-jaakkola/" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
           Kasperi Jaakkola
         </Link>
-        . Made with{" "}
+        . Created with{" "}
         <Link href="https://nextjs.org/" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
           Next.js
+        </Link>
+        {" "}and{" "}
+        <Link href="https://tailwindcss.com/" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
+          Tailwind CSS
         </Link>
       </span>
     </footer>
