@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <nav className="flex flex-wrap md:justify-normal justify-center text-lg sm:text-2xl md:text-3xl py-5 sm:py-10 gap-4 sm:gap-6 md:gap-10 font-bold">
+    <nav className="flex flex-wrap md:justify-normal justify-center text-[--primary] text-lg sm:text-2xl md:text-3xl py-5 sm:py-10 gap-4 sm:gap-6 md:gap-10 font-bold">
       <Link href="#profile" className="hover:scale-105 hover:underline hover:uppercase transition">
         profile
       </Link>

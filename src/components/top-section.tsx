@@ -36,10 +36,13 @@ export default function TopSection() {
         </section>
       </div>
       <section className="flex flex-col items-center xl:items-start self-start gap-2 py-5 xl:ml-auto w-full xl:w-auto">
-        <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">
-          Level <span className="border-foreground text-lg md:text-xl font-light border-2 p-1 rounded-full">10</span>
+        <h1 className="text-xl flex gap-2 items-center md:text-2xl lg:text-3xl">
+          <span className="font-bold">Level</span>
+          <span className="text-lg md:text-xl border-2 w-10 h-10 flex items-center justify-center rounded-full border-[--primary]">
+            10
+          </span>
         </h1>
-        <div className="border-2 rounded-lg flex items-center p-2 md:p-5 gap-2 md:gap-4">
+        <div className="border-2 border-foreground rounded-lg flex items-center p-2 md:p-5 gap-2 md:gap-4">
           <div className="px-2 text-2xl md:text-3xl lg:text-4xl">
             3
           </div>
@@ -53,7 +56,7 @@ export default function TopSection() {
           href="mailto:kasperijaa@gmail.com"
           rel="noopener noreferrer" target="_blank"
         >
-          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-base md:text-lg lg:text-xl hover:scale-105 hover:underline hover:uppercase transition">
+          <div className="border-2 border-foreground rounded-lg flex items-center py-2 px-10 text-base md:text-lg lg:text-xl hover:scale-105 hover:underline hover:uppercase transition">
             Message
           </div>
         </Link>
