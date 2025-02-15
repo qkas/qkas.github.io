@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TopSection() {
   return (
-    <main className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5">
+    <main id="profile" className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5">
       <Link
         href="https://www.linkedin.com/in/kasperi-jaakkola/"
         className="hover:scale-105 transition min-w-32"
