@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TopSection() {
   return (
-    <main className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5 font-[family-name:var(--font-geist-mono)]">
+    <main className="flex flex-wrap justify-center items-center md:justify-start sm:gap-10 gap-5">
       <Link
         href="https://www.linkedin.com/in/kasperi-jaakkola/"
         className="hover:scale-105 transition min-w-32"
@@ -20,7 +20,7 @@ export default function TopSection() {
       <div className="flex flex-col min-w-[250px] xs:min-w-[400px] flex-1 md:text-start text-center">
         <Link
           href="https://www.linkedin.com/in/kasperi-jaakkola/"
-          className="font-bold text-3xl w-fit md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
+          className="font-bold text-3xl xl:w-fit md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
           rel="noopener noreferrer" target="_blank"
         > Kasperi Jaakkola
         </Link>
@@ -37,7 +37,7 @@ export default function TopSection() {
           </section>
         </div>
       </div>
-      <section className="flex flex-col items-start self-start gap-5 py-5 2xl:pl-10 2xl:mx-auto w-full 2xl:w-auto">
+      <section className="flex flex-col items-center 2xl:items-start self-start gap-5 py-5 2xl:mx-auto w-full 2xl:w-auto">
         <h1 className="font-bold text-2xl md:text-3xl">
           Level <span className="border-foreground text-lg md:text-xl font-light border-2 p-1 rounded-full">10</span>
         </h1>
@@ -51,11 +51,12 @@ export default function TopSection() {
           </div>
         </div>
         <Link
+          className="2xl:place-self-end"
           href="mailto:kasperijaa@gmail.com"
           rel="noopener noreferrer" target="_blank"
         >
           <div className="border-2 rounded-lg flex items-center py-2 px-10 text-lg md:text-2xl hover:scale-105 hover:underline hover:uppercase transition">
-            message
+            Message
           </div>
         </Link>
         
