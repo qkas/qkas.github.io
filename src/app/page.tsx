@@ -14,7 +14,6 @@ export default function Home() {
         </div>
         <SideBar/>
       </div>
-      <div className="my-20">WEBSITE IN PROGRESS, MORE CONTENT COMING SOON</div>
     </div>
   );
 }
