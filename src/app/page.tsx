@@ -5,7 +5,7 @@ import TextBox from "@/components/text-box";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-10 md:gap-20">
+    <div className="flex flex-col gap-5 xl:gap-10">
       <TopSection/>
       <div className="flex flex-wrap gap-5">
         <div className="flex flex-col min-w-[250px] lg:min-w-[800px] flex-1 gap-5 lg:gap-10">

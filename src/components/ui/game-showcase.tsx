@@ -35,7 +35,7 @@ export default function GameShowcase({ title, description, skills, gifSrc, imgSr
       <div className="gap-5 px-2 w-full text-center md:text-left">
         <h1 className="text-lg md:text-2xl font-bold">{title}</h1>
         <p className="text-sm md:text-lg max-w-5xl">{description}</p>
-        <div className="justify-self-end text-end mt-5 text-sm md:text-lg">
+        <div className="justify-self-end text-end text-sm md:text-lg">
           {skills}
         </div>
       </div>
