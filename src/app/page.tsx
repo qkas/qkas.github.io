@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <SideBar/>
       </div>
-      <div className="my-20 font-[family-name:var(--font-geist-mono)]">WEBSITE IN PROGRESS, MORE CONTENT COMING SOON</div>
+      <div className="my-20">WEBSITE IN PROGRESS, MORE CONTENT COMING SOON</div>
     </div>
   );
 }

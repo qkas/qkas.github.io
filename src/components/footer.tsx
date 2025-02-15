@@ -4,7 +4,7 @@ import { Copyright } from "@mui/icons-material";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center text-center items-center text-xs sm:text-sm md:text-base font-[family-name:var(--font-geist-mono)] mt-20 px-10 py-8">
+    <footer className="flex justify-center text-center items-center text-xs sm:text-sm md:text-base mt-20 px-10 py-8">
       <span>
         <span className="justify-start">
           <Copyright fontSize="inherit" className="mr-1" />

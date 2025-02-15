@@ -2,7 +2,7 @@ import GameShowcase from "@/components/ui/game-showcase"
 
 export default function RecentActivity() {
   return (
-    <div className="flex flex-col justify-start border-2 divide-y-2 divide-foreground rounded-lg font-[family-name:var(--font-geist-mono)]">
+    <div className="flex flex-col justify-start border-2 divide-y-2 divide-foreground rounded-lg">
       <div className="flex justify-between items-center p-5 gap-10 font-bold text-base md:text-lg">
         <span>Recent Activity</span>
         <span>4 noteworthy projects past 6 months</span>
