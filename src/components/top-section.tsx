@@ -53,7 +53,7 @@ export default function TopSection() {
           href="mailto:kasperijaa@gmail.com"
           rel="noopener noreferrer" target="_blank"
         >
-          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-lg md:text-xl lg:text-2xl hover:scale-105 hover:underline hover:uppercase transition">
+          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-base md:text-lg lg:text-xl hover:scale-105 hover:underline hover:uppercase transition">
             Message
           </div>
         </Link>
