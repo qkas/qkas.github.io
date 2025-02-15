@@ -17,10 +17,10 @@ export default function TopSection() {
           height={200}
         />
       </Link>
-      <div className="flex flex-col md:text-start text-center">
+      <div className="flex flex-col min-w-[250px] xs:min-w-[400px] flex-1 md:text-start text-center">
         <Link
           href="https://www.linkedin.com/in/kasperi-jaakkola/"
-          className="font-bold text-3xl md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
+          className="font-bold text-3xl w-fit md:text-5xl lg:text-6xl hover:scale-105 hover:underline hover:uppercase transition"
           rel="noopener noreferrer" target="_blank"
         > Kasperi Jaakkola
         </Link>
@@ -42,11 +42,11 @@ export default function TopSection() {
           Level <span className="border-foreground text-lg md:text-xl font-light border-2 p-1 rounded-full">10</span>
         </h1>
         <div className="border-2 rounded-lg flex items-center p-2 md:p-5 gap-2 md:gap-4">
-          <div className="px-2 text-3xl md:text-5xl">
+          <div className="px-2 text-2xl md:text-5xl">
             3
           </div>
-          <div className="flex flex-col pr-10">
-            <h1 className="text-lg md:text-xl font-bold">Years of webxperience</h1>
+          <div className="flex flex-col pr-2">
+            <h1 className="text-md md:text-lg font-bold">Years of webxperience</h1>
             <h2 className="text-sm md:text-base">150 XP</h2>
           </div>
         </div>
@@ -54,10 +54,11 @@ export default function TopSection() {
           href="mailto:kasperijaa@gmail.com"
           rel="noopener noreferrer" target="_blank"
         >
-          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-xl md:text-2xl hover:scale-105 hover:underline hover:uppercase transition">
+          <div className="border-2 rounded-lg flex items-center py-2 px-10 text-lg md:text-2xl hover:scale-105 hover:underline hover:uppercase transition">
             message
           </div>
         </Link>
+        
       </section>
     </main>
   );
