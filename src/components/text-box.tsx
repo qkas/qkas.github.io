@@ -1,8 +1,8 @@
 export default function TextBox() {
 	return (
 		<div className="flex flex-col border-2 border-foreground divide-y-2 divide-foreground rounded-lg">
-			<h1 className="items-center text-center w-full bg-[--secondary] p-5 font-bold text-base md:text-lg">Unnecessary ASCII Showcase</h1>
-			<p className="overflow-hidden">
+			<h1 className="items-center text-center w-full px-5 py-2 font-bold text-base md:text-lg">Unnecessary ASCII Showcase</h1>
+			<p className="overflow-hidden text-xs md:text-sm lg:text-base">
 				░░░░░░░░░░░░░▄▐░░░░░░░░░░░░░░░░░▄▐░░░░░░░░░░░░░░░░░▄▐░░░░░░░░░░░░░░░░░░░▄▐░░░░░░░░░░░░░░░░░▄▐░░░░░░░░░░░░░░░░░▄▐░░░░░░
 				░░░░░░░▄▄▄░░▄██▄░░░░░░░░░░▄▄▄░░▄██▄░░░░░░░░░░▄▄▄░░▄██▄░░░░░░░░░░░░▄▄▄░░▄██▄░░░░░░░░░░▄▄▄░░▄██▄░░░░░░░░░░▄▄▄░░▄██▄░░░░░
 				░░░░░░▐▀█▀▌░░░░▀█▄░░░░░░░▐▀█▀▌░░░░▀█▄░░░░░░░▐▀█▀▌░░░░▀█▄░░░░░░░░░▐▀█▀▌░░░░▀█▄░░░░░░░▐▀█▀▌░░░░▀█▄░░░░░░░▐▀█▀▌░░░░▀█▄░░░
