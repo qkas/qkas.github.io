@@ -26,6 +26,8 @@ export default function GameShowcase({ title, description, skills, gifSrc, imgSr
           className="border-foreground border-2 rounded-lg w-full md:w-auto"
           src={isPlaying ? gifSrc : imgSrc}
           alt={altText}
+          placeholder="blur"
+          blurDataURL={imgSrc}
           width={400}
           height={225}
         />
