@@ -35,7 +35,7 @@ export default function TopSection() {
           This is my personal website where I'll be sharing my projects.
         </section>
       </div>
-      <section className="flex flex-col items-center xl:items-start self-start gap-2 py-5 xl:ml-auto w-full xl:w-auto">
+      <section className="flex flex-col items-center xl:items-start self-start gap-2 xl:ml-auto w-full xl:w-auto">
         <h1 className="text-xl flex gap-2 items-center md:text-2xl lg:text-3xl">
           <span className="font-bold">Level</span>
           <span className="text-lg md:text-xl border-2 w-10 h-10 flex items-center justify-center rounded-full border-[--primary]">
