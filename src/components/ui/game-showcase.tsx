@@ -20,10 +20,10 @@ export default function GameShowcase({ title, description, skills, gifSrc, imgSr
   }
 
   return (
-    <div className="p-5 flex flex-col md:flex-row gap-5">
-      <button onClick={toggleGif} className="w-full md:w-auto">
+    <div className="p-5 flex flex-col lg:flex-row gap-5">
+      <button onClick={toggleGif} className="w-full lg:w-auto">
         <Image
-          className="border-foreground border-2 rounded-lg w-full md:w-auto"
+          className="border-foreground border-2 rounded-lg w-full lg:w-auto"
           src={isPlaying ? gifSrc : imgSrc}
           alt={altText}
           placeholder="blur"
@@ -32,10 +32,10 @@ export default function GameShowcase({ title, description, skills, gifSrc, imgSr
           height={225}
         />
       </button>
-      <div className="gap-5 px-2 w-full text-center md:text-left">
+      <div className="gap-5 px-2 w-full text-center lg:text-left">
         <h1 className="text-lg md:text-2xl font-bold">{title}</h1>
         <p className="text-sm md:text-lg max-w-5xl">{description}</p>
-        <div className="justify-self-end text-end text-sm md:text-lg">
+        <div className="justify-self-end text-end mt-5 text-sm md:text-lg">
           {skills}
         </div>
       </div>
