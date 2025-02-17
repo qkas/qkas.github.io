@@ -21,7 +21,7 @@ export default function SideBar() {
       </div>
       <section className="flex flex-row flex-wrap 2xl:flex-nowrap 2xl:flex-col gap-10 2xl:gap-5">
         <div className="text-base lg:text-lg xl:text-xl">
-          <div className="flex gap-4">
+          <div className="flex mb-1 gap-4">
             <h1>Badges</h1>
             <h2 className="font-thin">1</h2>
           </div>
