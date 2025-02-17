@@ -23,7 +23,7 @@ export default function GameShowcase({ title, description, skills, gifSrc, imgSr
     <div className="p-5 flex flex-col lg:flex-row gap-5">
       <button onClick={toggleGif} className="w-full lg:w-auto">
         <Image
-          className="border-foreground border-2 rounded-lg w-full lg:w-auto"
+          className="border-foreground border-2 rounded-lg w-full lg:w-auto hover:scale-105"
           src={isPlaying ? gifSrc : imgSrc}
           alt={altText}
           placeholder="blur"
