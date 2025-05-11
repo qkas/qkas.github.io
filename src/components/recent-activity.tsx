@@ -5,7 +5,7 @@ export default function RecentActivity() {
     <div id="projects" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-lg">
       <div className="flex justify-between items-center px-5 py-2 gap-10 font-bold text-base md:text-lg">
         <span>Recent Activity</span>
-        <span>2+ projects past 3 months</span>
+        <span>3+ projects past 6 months</span>
       </div>
       <GameShowcase
         title="Dungeon Deathmatch Game"
@@ -26,6 +26,16 @@ export default function RecentActivity() {
         gifSrc="/vr-sampling.gif"
         imgSrc="/vr-sampling.png"
         altText="VR Sampling Equipment gameplay"
+      />
+      <GameShowcase
+        title="Web Development Projects"
+        description="Recently I've been working on multiple web projects, mostly using Next.js and Supabase with Tailwind CSS. This portfolio
+          page is also one of them. The others are two micro SaaS projects called EcoBit and Arvokas, which i've been developing for experience.
+          I have also been learning intensively about DevOps and infrastructure."
+        skills="Next.js, Supabase, DevOps, SaaS"
+        gifSrc="/in-progress.gif"
+        imgSrc="/in-progress.png"
+        altText="Gears spinning"
       />
     </div>
   );
