@@ -21,6 +21,7 @@ export default function Achievements() {
 				<Skill name="TypeScript" />
 				<Skill name="React" />
 				<Skill name="Next.js" />
+				<Skill name="Docker" />
 				<Skill name="HTML" />
 				<Skill name="CSS" />
 				<Skill name="TailwindCSS" />
