@@ -32,7 +32,7 @@ export default function RecentActivity() {
         description="Recently I've been working on multiple web projects, mostly using Next.js and Supabase with Tailwind CSS. This portfolio
           page is also one of them. The others are two micro SaaS projects called EcoBit and Arvokas, which i've been developing for experience.
           I have also been learning intensively about DevOps and infrastructure."
-        skills="Next.js, Supabase, DevOps, SaaS"
+        skills="Next.js, TypeScript, DevOps, SaaS"
         gifSrc="/in-progress.gif"
         imgSrc="/in-progress.png"
         altText="Gears spinning"
