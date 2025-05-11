@@ -10,8 +10,8 @@ export default function RecentActivity() {
       <GameShowcase
         title="Dungeon Deathmatch Game"
         description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Doom. Currently working 
-          on missing animations and broken ragdoll physics but after that I want to move on to the next project. I've loved making new
-          features and playtesting them with my friends."
+          on missing animations. Next up I'm planning on adding procedural map generation. I've loved making new features and playtesting
+          them with my friends. Note: The GIF is a slightly outdated gameplay clip."
         skills="Godot, networking, UI menus"
         gifSrc="/dungeon.gif"
         imgSrc="/dungeon.png"
