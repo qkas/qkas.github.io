@@ -5,7 +5,7 @@ export default function RecentActivity() {
     <div id="projects" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-lg">
       <div className="flex justify-between items-center px-5 py-2 gap-10 font-bold text-base md:text-lg">
         <span>Recent Activity</span>
-        <span>3+ projects past 6 months</span>
+        <span>4+ projects past 12 months</span>
       </div>
       <GameShowcase
         title="Dungeon Deathmatch Game"
@@ -26,6 +26,16 @@ export default function RecentActivity() {
         gifSrc="/vr-sampling.gif"
         imgSrc="/vr-sampling.png"
         altText="VR Sampling Equipment gameplay"
+      />
+      <GameShowcase
+        title="Obenseuer Card Game System"
+        description="A reusable and expandable card game system in Unity, integrated to the game Obenseuer as part of an 8 week internship.
+          The game includes two games; Shittypants (China Hand/Paskahousu) and Crosseven (Sevens/Ristiseiska), both playable for in-game money
+          as part of the upcoming gambling update."
+        skills="Unity, C#, OOP, game architecture"
+        gifSrc="cardgames.gif"
+        imgSrc="cardgames.png"
+        altText="Card games gameplay"
       />
       <GameShowcase
         title="Web Development Projects"
