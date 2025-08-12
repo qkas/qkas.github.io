@@ -12,7 +12,7 @@ export default function RecentActivity() {
         description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Doom. Currently working 
           on missing animations. Next up I'm planning on adding procedural map generation. I've loved making new features and playtesting
           them with my friends. Note: The GIF is a slightly outdated gameplay clip."
-        skills="Godot, networking, UI menus"
+        skills="Godot, networking, inverse kinematics"
         gifSrc="/dungeon.gif"
         imgSrc="/dungeon.png"
         altText="Dungeon deathmatch gameplay"
@@ -32,7 +32,7 @@ export default function RecentActivity() {
         description="A reusable and expandable card game system in Unity, integrated to the game Obenseuer as part of an 8 week internship.
           The game includes two games; Shittypants (China Hand/Paskahousu) and Crosseven (Sevens/Ristiseiska), both playable for in-game money
           as part of the upcoming gambling update."
-        skills="Unity, C#, OOP, game architecture"
+        skills="Unity, C# OOP, game architecture"
         gifSrc="cardgames.gif"
         imgSrc="cardgames.png"
         altText="Card games gameplay"
