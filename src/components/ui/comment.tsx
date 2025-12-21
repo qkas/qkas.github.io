@@ -29,11 +29,11 @@ export default function Comment({
         />
       </div>
       <div className="gap-5 px-2 w-full text-left">
-        <div className="flex items-center gap-4">
-          <h1 className="text-xl md:text-3xl font-bold">{username}</h1>
-          <h2 className="text-base md:text-lg text-gray-400">{datePosted}</h2>
+        <div className="flex items-center gap-2 md:gap-4">
+          <h1 className="text-base md:text-xl lg:text-3xl font-bold">{username}</h1>
+          <h2 className="text-xs md:text-base lg:text-lg text-gray-400">{datePosted}</h2>
         </div>
-        <p className="text-sm md:text-lg max-w-5xl">{comment}</p>
+        <p className="text-xs md:text-sm lg:text-lg max-w-5xl">{comment}</p>
       </div>
     </div>
   );
