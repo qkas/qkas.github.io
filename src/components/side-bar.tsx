@@ -25,7 +25,11 @@ export default function SideBar() {
             <h1>Badges</h1>
             <h2 className="font-thin">1</h2>
           </div>
-          <div className="flex gap-4">
+          <Link
+            href="https://globalgamejam.org/jam-sites/2025/fgj-turku"
+            className="flex w-fit hover:scale-105 transition"
+            rel="noopener noreferrer" target="_blank"
+          >
             <Image
               className="max-w-20 rounded-sm"
               src="/fgj25.png"
@@ -33,7 +37,7 @@ export default function SideBar() {
               width={400}
               height={225}
             />
-          </div>
+          </Link>
         </div>
         <div className="text-base lg:text-lg xl:text-xl">
           <div className="flex gap-4">
