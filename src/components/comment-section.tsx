@@ -15,10 +15,10 @@ export default function CommentSection() {
           comment={
             <>
               Feel free to{" "}
-              <Link href="https://github.com/qkas" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
+              <Link href="mailto:kasperijaa@gmail.com" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
                 reach out to me
               </Link>
-              {" "}through any channel you prefer! I'm actively looking for work!
+              {" "}for work! I'm actively looking to join interesting projects!
             </>
           }
           datePosted="21 Dec, 2025 @ 12:46pm"
