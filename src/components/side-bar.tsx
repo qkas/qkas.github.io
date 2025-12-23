@@ -15,7 +15,7 @@ export default function SideBar() {
   };
 
   return (
-    <main className="p-5 flex flex-col border-2 border-foreground rounded-lg h-fit w-full 2xl:w-fit">
+    <main className="p-5 flex flex-col border-2 border-foreground rounded-sm h-fit w-full 2xl:w-fit">
       <div className="text-[--primary] font-bold mb-5 text-lg lg:text-xl xl:text-2xl">
         Currently Online
       </div>

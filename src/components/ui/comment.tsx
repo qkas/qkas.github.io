@@ -20,7 +20,7 @@ export default function Comment({
     <div className="p-5 flex flex-row gap-2 lg:gap-4">
       <div>
         <Image
-          className="border-foreground border-2 rounded-lg w-16 lg:w-24 hover:scale-105 transition-transform"
+          className="border-foreground border-2 rounded-sm w-16 lg:w-24 hover:scale-105 transition-transform"
           src={profilePicSrc}
           alt={"Profile picture of the commenting user"}
           width={24}

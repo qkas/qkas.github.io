@@ -4,7 +4,7 @@ function Skill({
   name: string;
 }>) {
 	return (
-		<div className="flex flex-col p-2 border-2 border-foreground rounded-lg text-sm md:text-base lg:text-lg">
+		<div className="flex flex-col p-2 border-2 border-foreground rounded-sm text-sm md:text-base lg:text-lg">
 			{name}
 		</div>
 	)
@@ -12,7 +12,7 @@ function Skill({
 
 export default function Achievements() {
 	return (
-		<div id="skills" className="flex flex-col border-2 border-foreground divide-y-2 divide-foreground rounded-lg">
+		<div id="skills" className="flex flex-col border-2 border-foreground divide-y-2 divide-foreground rounded-sm">
 			<h1 className="items-center text-center w-fit px-5 py-2 font-bold text-base md:text-lg">Achievement Showcase</h1>
 			<div className="flex gap-2 md:gap-3 lg:gap-4 flex-wrap p-5 text-xl">
 				<Skill name="Git" />

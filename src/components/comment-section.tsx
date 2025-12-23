@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CommentSection() {
   return (
-    <div id="comments" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-lg">
+    <div id="comments" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-sm">
       <div className="flex justify-between items-center px-5 py-2 gap-10 font-bold text-base md:text-lg">
         <span>Comments</span>
         <span>2 comments</span>

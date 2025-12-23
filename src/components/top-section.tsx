@@ -10,7 +10,7 @@ export default function TopSection() {
         rel="noopener noreferrer" target="_blank"
       >
         <Image
-          className="border-foreground border-2 rounded-lg"
+          className="border-foreground border-2 rounded-sm"
           src="/bear.png"
           alt="Profile"
           width={200}
@@ -42,7 +42,7 @@ export default function TopSection() {
             10
           </span>
         </h1>
-        <div className="border-2 border-foreground rounded-lg flex items-center p-2 md:p-5 gap-2 md:gap-4">
+        <div className="border-2 border-foreground rounded-sm flex items-center p-2 md:p-5 gap-2 md:gap-4">
           <div className="px-2 text-2xl md:text-3xl lg:text-4xl">
             3
           </div>
@@ -56,7 +56,7 @@ export default function TopSection() {
           href="mailto:kasperijaa@gmail.com"
           rel="noopener noreferrer" target="_blank"
         >
-          <div className="border-2 border-foreground rounded-lg flex items-center py-2 px-10 text-base md:text-lg lg:text-xl hover:scale-105 hover:underline hover:uppercase transition">
+          <div className="border-2 border-foreground rounded-sm flex items-center py-2 px-10 text-base md:text-lg lg:text-xl hover:scale-105 hover:underline hover:uppercase transition">
             Message
           </div>
         </Link>
