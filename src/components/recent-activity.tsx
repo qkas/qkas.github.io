@@ -5,7 +5,7 @@ export default function RecentActivity() {
     <div id="projects" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-sm">
       <div className="flex justify-between items-center px-5 py-2 gap-10 font-bold text-base md:text-lg">
         <span>Recent Activity</span>
-        <span>4+ projects past 12 months</span>
+        <span>4+ projects past year</span>
       </div>
       <GameShowcase
         title="Dungeon Deathmatch Game"
