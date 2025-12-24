@@ -37,7 +37,7 @@ export default function GameShowcase({
 
   return (
     <div className="p-5 flex flex-col lg:flex-row gap-5">
-      <button onClick={toggleGif} className="w-full lg:w-auto">
+      <button onClick={toggleGif} className="w-full lg:w-auto self-start">
         <Image
           className="border-foreground border-2 rounded-sm w-full lg:w-auto hover:scale-105 transition-transform"
           src={shouldShowGif ? gifSrc : imgSrc}
@@ -47,10 +47,9 @@ export default function GameShowcase({
           priority
         />
       </button>
-
       <div className="gap-5 px-2 w-full text-center lg:text-left">
         <h1 className="text-lg md:text-2xl font-bold">{title}</h1>
-        <p className="text-sm md:text-lg max-w-5xl">{description}</p>
+        <p className="text-sm md:text-base max-w-5xl">{description}</p>
         <div className="justify-self-end text-end mt-5 text-sm md:text-lg">
           {skills}
         </div>
