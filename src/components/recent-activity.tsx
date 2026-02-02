@@ -9,8 +9,9 @@ export default function RecentActivity() {
       </div>
       <GameShowcase
         title="Dungeon Deathmatch Game"
-        description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Doom. Currently working 
-          on missing animations. Next up I'm planning on adding procedural map generation. I've loved making new features and playtesting
+        description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Quake. This was my first
+          full-scale game and it taught me the basics of networking, feature implementation and project organization. The game was left
+          unfinished due to not being a marketable concept, but rather a learning project. I've loved making new features and playtesting
           them with my friends. Note: The GIF is a slightly outdated gameplay clip."
         skills="Godot, networking, inverse kinematics"
         gifSrc="/dungeon.gif"
@@ -31,7 +32,7 @@ export default function RecentActivity() {
         title="Obenseuer Card Game System"
         description="A reusable and expandable card game system in Unity, integrated to the game Obenseuer as part of an 8 week internship.
           The game includes two games; Shittypants (China Hand/Paskahousu) and Crosseven (Sevens/Ristiseiska), both playable for in-game money
-          as part of the upcoming gambling update."
+          as part of the upcoming gambling update. Features dynamic card animations with DOTween, custom NPC interaction and dialogue"
         skills="Unity, C# OOP, game architecture"
         gifSrc="cardgames.gif"
         imgSrc="cardgames.png"
@@ -41,8 +42,8 @@ export default function RecentActivity() {
         title="Web Development Projects"
         description="Recently I've been working on multiple web projects, mostly using Next.js and Supabase with Tailwind CSS. This portfolio
           page is also one of them. The others are two micro SaaS projects called EcoBit and Arvokas, which i've been developing for experience.
-          I have also been learning intensively about DevOps and infrastructure."
-        skills="Next.js, TypeScript, DevOps, SaaS"
+          I have also been learning intensively about user authentication, DevOps and infrastructure."
+        skills="Next.js, authentication, DevOps, SaaS"
         gifSrc="/in-progress.gif"
         imgSrc="/in-progress.png"
         altText="Gears spinning"
