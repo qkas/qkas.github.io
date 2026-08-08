@@ -8,7 +8,7 @@ export default function Footer() {
       <span>
         <span className="justify-start">
           <Copyright fontSize="inherit" className="mr-1" />
-          2025,{" "}
+          2026,{" "}
         </span>
         <Link href="https://www.linkedin.com/in/kasperi-jaakkola/" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
           Kasperi Jaakkola
