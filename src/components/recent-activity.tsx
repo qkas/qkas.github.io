@@ -5,8 +5,19 @@ export default function RecentActivity() {
     <div id="projects" className="flex flex-col justify-start border-2 border-foreground divide-y-2 divide-foreground rounded-sm">
       <div className="flex justify-between items-center px-5 py-2 gap-10 font-bold text-base md:text-lg">
         <span>Recent Activity</span>
-        <span>4+ projects past year</span>
+        <span>5+ projects</span>
       </div>
+      <GameShowcase
+        title="Chaotic Party Shooter Game (ONGOING)"
+        description="A Godot multiplayer party shooter where players build terrible arenas and are forced to play in them. Features
+          building blocks, guns, melee weapons, traps, fast-paced action and high-skill movement mechanics. This is my first Steam release
+          project, with a stronger emphasis on decoupled systems and project organization. Currently working on weapon spawners and gunplay
+          with hopes on playtesting everything soon with my friends."
+        skills="Godot, synchronization, game mechanics, state machines"
+        gifSrc="/scuffed.gif"
+        imgSrc="/scuffed.png"
+        altText="Party shooter character  deathmatch gameplay"
+      />
       <GameShowcase
         title="Dungeon Deathmatch Game"
         description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Quake. This was my first
