@@ -42,19 +42,17 @@ export default function RecentActivity() {
       />
       <GameShowcase
         title="Bachelor's thesis"
-        description={
-          <>
+        description={<>
             <Link href="https://www.theseus.fi/handle/10024/906732" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
               Implementing a Code-Based Matchmaking Lobby with Godot and Flask
             </Link>
-            . A lightweight and reusable matchmaking system for peer-to-peer multiplayer games, allowing players to host and join
-            sessions using simple join codes instead of manually entering IP addresses. Built with Godot and Flask, with UPnP for automated
-            port forwarding and a test scene for verifying real-time multiplayer synchronization.{" "}
+            {" - "}A lightweight and reusable Godot/Flask matchmaking system for peer-to-peer multiplayer games, allowing players to host and join
+            sessions using simple join codes instead of manually entering IP addresses. Integrated with automated port forwarding (UPnP) and a
+            test scene. Completed with grade the highest grade (5/5).{" "}
             <Link href="https://www.theseus.fi/handle/10024/906732" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
               https://www.theseus.fi/handle/10024/906732
             </Link>
-          </>
-        }
+          </>}
         skills="Godot, Flask, matchmaking, P2P, UPnP"
         gifSrc="/thesis.gif"
         imgSrc="/thesis.png"
