@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import Image from "next/image";
 
 interface GameShowcaseProps {
   title: string;
-  description: string;
+  description: ReactNode;
   skills: string;
   gifSrc: string;
   imgSrc: string;
