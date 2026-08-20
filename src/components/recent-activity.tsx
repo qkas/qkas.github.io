@@ -1,4 +1,5 @@
-import GameShowcase from "@/components/ui/game-showcase"
+import GameShowcase from "@/components/ui/game-showcase";
+import Link from "next/link";
 
 export default function RecentActivity() {
   return (
@@ -9,10 +10,10 @@ export default function RecentActivity() {
       </div>
       <GameShowcase
         title="Chaotic Party Shooter Game (ONGOING)"
-        description="A Godot multiplayer party shooter where players build terrible arenas and are forced to play in them. Features
+        description={<>A Godot multiplayer party shooter where players build terrible arenas and are forced to play in them. Features
           building blocks, guns, melee weapons, traps, fast-paced action and high-skill movement mechanics. This is my first Steam release
           project, with a stronger emphasis on decoupled systems and project organization. Currently working on weapon spawners and gunplay
-          with hopes on playtesting everything soon with my friends."
+          with hopes on playtesting everything soon with my friends</>}
         skills="Godot, synchronization, game mechanics, state machines"
         gifSrc="/scuffed.gif"
         imgSrc="/scuffed.png"
@@ -20,40 +21,60 @@ export default function RecentActivity() {
       />
       <GameShowcase
         title="Dungeon Deathmatch Game"
-        description="A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Quake. This was my first
+        description={<>A multiplayer retro shooter made with Godot, inspired by games like Counter Strike 1.6 and Quake. This was my first
           full-scale game and it taught me the basics of networking, feature implementation and project organization. The game was left
           unfinished due to not being a marketable concept, but rather a learning project. I've loved making new features and playtesting
-          them with my friends. Note: The GIF is a slightly outdated gameplay clip."
+          them with my friends. Note: The GIF is a slightly outdated gameplay clip.</>}
         skills="Godot, networking, inverse kinematics"
         gifSrc="/dungeon.gif"
         imgSrc="/dungeon.png"
         altText="Dungeon deathmatch gameplay"
       />
       <GameShowcase
+        title="Obenseuer Card Game System"
+        description={<>A reusable and expandable card game system in Unity, integrated to the game Obenseuer as part of an 8 week internship.
+          The game includes two games; Shittypants (China Hand/Paskahousu) and Crosseven (Sevens/Ristiseiska), both playable for in-game money
+          as part of the upcoming gambling update. Features dynamic card animations with DOTween, custom NPC interaction and dialogue</>}
+        skills="Unity, C# OOP, game architecture"
+        gifSrc="/cardgames.gif"
+        imgSrc="/cardgames.png"
+        altText="Card games gameplay"
+      />
+      <GameShowcase
+        title="Bachelor's thesis"
+        description={
+          <>
+            <Link href="https://www.theseus.fi/handle/10024/906732" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
+              Implementing a Code-Based Matchmaking Lobby with Godot and Flask
+            </Link>
+            . A lightweight and reusable matchmaking system for peer-to-peer multiplayer games, allowing players to host and join
+            sessions using simple join codes instead of manually entering IP addresses. Built with Godot and Flask, with UPnP for automated
+            port forwarding and a test scene for verifying real-time multiplayer synchronization.{" "}
+            <Link href="https://www.theseus.fi/handle/10024/906732" className="hover:underline hover:uppercase" rel="noopener noreferrer" target="_blank">
+              https://www.theseus.fi/handle/10024/906732
+            </Link>
+          </>
+        }
+        skills="Godot, Flask, matchmaking, P2P, UPnP"
+        gifSrc="/thesis.gif"
+        imgSrc="/thesis.png"
+        altText="Multiplayer game matchmaking interface"
+      />
+      <GameShowcase
         title="VR Sampling Equipment Game"
-        description="A VR sampling equipment identification game for an innovative and hands-on learning experience for Biomedical students.
+        description={<>A VR sampling equipment identification game for an innovative and hands-on learning experience for Biomedical students.
           Worked as the main game designer and Unity developer together with an awesome team of nice people. Completed in two months as a 
-          Capstone project and delivered the game to the client."
+          Capstone project and delivered the game to the client.</>}
         skills="Unity, VR, team collaboration"
         gifSrc="/vr-sampling.gif"
         imgSrc="/vr-sampling.png"
         altText="VR Sampling Equipment gameplay"
       />
       <GameShowcase
-        title="Obenseuer Card Game System"
-        description="A reusable and expandable card game system in Unity, integrated to the game Obenseuer as part of an 8 week internship.
-          The game includes two games; Shittypants (China Hand/Paskahousu) and Crosseven (Sevens/Ristiseiska), both playable for in-game money
-          as part of the upcoming gambling update. Features dynamic card animations with DOTween, custom NPC interaction and dialogue"
-        skills="Unity, C# OOP, game architecture"
-        gifSrc="cardgames.gif"
-        imgSrc="cardgames.png"
-        altText="Card games gameplay"
-      />
-      <GameShowcase
         title="Web Development Projects"
-        description="Recently I've been working on multiple web projects, mostly using Next.js and Supabase with Tailwind CSS. This portfolio
+        description={<>Recently I've been working on multiple web projects, mostly using Next.js and Supabase with Tailwind CSS. This portfolio
           page is also one of them. The others are two micro SaaS projects called EcoBit and Arvokas, which i've been developing for experience.
-          I have also been learning intensively about user authentication, DevOps and infrastructure."
+          I have also been learning intensively about user authentication, DevOps and infrastructure.</>}
         skills="Next.js, authentication, DevOps, SaaS"
         gifSrc="/in-progress.gif"
         imgSrc="/in-progress.png"
